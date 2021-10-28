@@ -1,0 +1,507 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  height: 2000px;
+  background-color: #FFE8E8;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.title {
+  margin-bottom: 15px;
+}
+
+.ttlesyte {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #FCD1D1;
+  color: #1E212D;
+  margin-bottom: 30px;
+  font-size: 45px;
+  font-weight: 600;
+  text-align: center;
+  border: 1px solid #BDD2B6;
+}
+
+.property {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+  flex-wrap: wrap
+}
+
+.description {
+  width: 30%;
+
+}
+
+.demon {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 50%;
+  flex-wrap: wrap;
+}
+
+.element {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+  height: 70px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+  flex-wrap: wrap
+}
+
+.block {
+  height: 80%;
+  width: 30px;
+  background-color: #FFDCDC;
+  border-radius: 8px;
+
+}
+
+.element1 {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  padding: 5px;
+  height: 70px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+
+.element2 {
+  align-items: center;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 5px;
+  padding: 5px;
+  height: 70px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+
+.element3 {
+  position: absolute;
+  top: 330px;
+  right: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+  height: 90px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.element4 {
+  position: absolute;
+  top: 430px;
+  right: 10px;
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 5px;
+  padding: 5px;
+  height: 90px;
+  width: 300px;
+  background-color: #FF9292;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.element5 {
+  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 5px;
+  padding: 5px;
+  height: 70px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+
+.element6 {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 5px;
+  height: 100px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+
+.element7 {
+  position: absolute;
+  top: 550px;
+  right: 10px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 5px;
+  padding: 5px;
+  height: 100px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+
+.block1 { 
+
+  height: 80%;
+  width: 30px;
+  background-color: #FFDCDC;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.description1 {
+  position: absolute;
+  left: 240px;
+  width: 30%;
+
+}
+
+
+.element8 {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+  padding: 5px;
+  height: 80px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+
+.element9 {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding: 5px;
+  height: 80px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+
+.element10 {
+  position: absolute;
+  right: 10px;
+  top: 1115px;
+  justify-content: space-around;
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+  height: 80px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+
+.element11 {
+  position: absolute;
+  right: 10px;
+  top: 1015px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  padding: 5px;
+  height: 80px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+
+}
+
+.element12 {
+  align-items: center;
+  display: flex;
+ 
+  gap: 5px;
+  padding: 5px;
+  height: 80px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+
+.element13 {
+
+  align-items: center;
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  padding: 5px;
+  height: 70px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+
+.element14 {
+  align-items: center;
+  display: flex;
+  align-items: stretch;
+  gap: 5px;
+  padding: 5px;
+  height: 80px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+
+.element15 {
+  align-items: center;
+  display: flex;
+ 
+  gap: 5px;
+  padding: 5px;
+  height: 80px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+
+.element16 {
+  position: absolute;
+  right: 10px;
+  top: 1780px;
+  align-content: flex-end;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 5px;
+  padding: 5px;
+  height: 80px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+
+.element17 {
+  position: absolute;
+  right: 10px;
+  top: 1450px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 5px;
+  padding: 5px;
+  height: 80px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+
+.element18 {
+
+  align-items: center;
+  display: flex;
+  align-items: space-around;
+  gap: 5px;
+  padding: 5px;
+  height: 80px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+
+.element19 {
+
+  align-items: center;
+  display: flex;
+align-content: space-between;
+  gap: 5px;
+  padding: 5px;
+  height: 80px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+
+.element20 {
+
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 5px;
+  padding: 5px;
+  height: 80px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+
+.element21 {
+  position: absolute;
+  right: 10px;
+  top: 1540px;
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+  height: 80px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+
+.element22 {
+  position: absolute;
+  right: 1700px;
+  top: 115px;
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+  height: 80px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+
+.element23 {
+  position: absolute;
+  right: 10px;
+  top: 1885px;
+  align-items: center;
+  display: flex;
+  align-content: stretch;
+  
+  gap: 5px;
+  padding: 5px;
+  height: 70px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+
+.element24 {
+
+  align-items: center;
+  display: flex;
+  order: 0;
+  gap: 5px;
+  padding: 5px;
+  height: 80px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+
+.element25 {
+
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+  gap: 5px;
+  padding: 5px;
+  height: 80px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+
+.element26 {
+  flex-grow: 3;
+  align-items: center;
+  display: flex;
+  
+  gap: 5px;
+  padding: 5px;
+  height: 80px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+
+.element27 {
+  flex-basis: auto;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 5px;
+  padding: 5px;
+  height: 80px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+
+.element28 {
+  flex-basis: auto;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 5px;
+  padding: 5px;
+  height: 80px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+
+.element29 {
+
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 5px;
+  padding: 5px;
+  height: 80px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+
+.element30 {
+
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 5px;
+  padding: 5px;
+  height: 80px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}
+.element31 {
+
+  align-items: center;
+  display: flex;
+  align-self: auto;
+  gap: 5px;
+  padding: 5px;
+  height: 80px;
+  width: 300px;
+  background-color: #FF9292;
+  border-radius: 8px;
+}

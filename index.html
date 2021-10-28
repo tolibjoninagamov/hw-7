@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css">
+  <title>class-work-7</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bebas+Neue&family=Bitter&family=Comfortaa&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Fredoka+One&family=Irish+Grover&family=Josefin+Sans&family=Montserrat:wght@500&family=Roboto+Condensed:ital,wght@1,300&family=Zen+Kurenaido&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div>
+    <h1 class="ttlesyte">Flexbox CSS</h1>
+  </div>
+  <div class="property container">
+
+    <div class="description">
+      <h1 class="title">1. display: flex;</h1>
+      "display: flex;" - Cтавит все блоки в один ряд;
+    </div>
+
+    <div class="demon">
+
+      <div class="element">
+
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+      </div>
+      <div class="element">
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <br />
+  <div class="property container">
+    <div class="description">
+      <h1 class="title">2. flex-direction: row;</h1>
+      flex-direction - это CSS свойство , указывающее на то,как flex-элементы располагаются во flex-контейнере по
+      главной
+      оси .
+    </div>
+    <div class="demon">
+      <div class="element1">
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+      </div>
+      <div class="element2">
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+        <div class="block"></div>
+      </div>
+
+      <div class="element3">
+        <div class="block">1</div>
+        <div class="block">2</div>
+        <div class="block">3</div>
+      </div>
+      <div class="element4">
+        <div class="block">1</div>
+        <div class="block">2</div>
+        <div class="block">3</div>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <br />
+  <div class="property container">
+    <div class="description">
+      <h1 class="title">3. flex-wrap: nowrap;</h1>
+      flex-wrap: nowrap - указывает, что флекс элементы внутри контейнера располагаются в несколько горизонтальных рядов
+    </div>
+    <div class="demon">
+      <div class="element5">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+      </div>
+      <div class="element6">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+       
+        
+      </div>
+      <div class="element7">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        
+      </div>
+    </div>
+  </div>
+  <br />
+  <hr />
+  <br />
+  <div class="property container">
+    <div class="description1">
+      <h1 class="title">4. flex-flow: row nowrap;</h1>
+      Свойство flex-flow является сокращенной формой записи свойств flex-direction и flex-wrap и позволяет за одну
+      декларацию задать направление главной оси и возможность переноса флекс-элементов на новую строку (т.е.
+      многострочность поперечной оси). Значение по умолчанию "flex-flow: row nowrap;".
+    </div>
+  </div>
+  <hr />
+  <br />
+  <div class="property container">
+    <div class="description">
+      <h1 class="title">5. justify-content: flex-start;</h1>
+      CSS свойство justify-content определяет, как браузер распределяет пространство между и вокруг элементов контента
+      вдоль главной оси flex контейнера, или вдоль строчной оси grid контейнера.
+    </div>
+    <div class="demon">
+      <div class="element8">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+      </div>
+      <div class="element9">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+      </div>
+      <div class="element10">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        
+      </div>
+
+      <div class="element11">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+       
+      </div>
+      <div class="element12">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+      </div>
+    </div>
+  </div>
+  <br />
+  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+  <hr />
+  <br />
+  <div class="property container">
+    <div class="description">
+      <br />
+      <h1 class="title">6. align-items: stretch;</h1>
+      CSS свойство align-items выравнивает flex-элементы текущей flex-линии таким же образом, как и justify-content, но
+      в перпендикулярном направлении.
+    </div>
+    <div class="demon">
+      <div class="element13">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+      </div>
+      <div class="element14">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+      </div>
+      <div class="element15">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+      </div>
+
+      <div class="element16">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+      </div>
+      <div class="element17">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+      </div>
+    </div>
+  </div>
+  <br /><br /><br /><br /><br /><br />
+  <hr />
+  <br />
+
+  <div class="property container">
+    <div class="description">
+      <h1 class="title">7. align-content: stretch;</h1>
+      Свойство css align-content устанавливает распределение пространства между и вокруг элементами контента вдоль
+      поперечной оси flexbox контейнера или вдоль блочной оси grid контейнера.
+    </div>
+    <div class="demon">
+      <div class="element18">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+      </div>
+      <div class="element19">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+      </div>
+      <div class="element20">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+      </div>
+      <div class="element21">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+      </div>
+
+      <div class="element22">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+      </div>
+      <div class="element23">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+      </div>
+    </div>
+  </div>
+  <br /><br /><br />
+
+  <br /><br /><br /><br />
+
+  <div>
+    <h1 class="ttlesyte">Свойства Flex-элемента</h1>
+  </div>
+  <br>
+  <div class="property container">
+    <div class="description">
+      <h1 class="title">1. order: 0;</h1>
+      CSS свойство order определяет порядок, используемый для размещения flex элементов в их flex контейнере. Элементы
+      располагаются в восходящем порядке по значению order. Элементы с одинаковым значением order располагаются в том
+      порядке, в каком они находятся в исходном коде.
+    </div>
+    <div class="demon">
+      <div class="element24">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+  <hr>
+  <br>
+  <div class="property container">
+    <div class="description">
+      <h1 class="title">2. flex-grow: 0;</h1>
+      CSS-свойство flex-grow определяет как много свободного пространства во flex-контейнере должно быть назначено
+      текущему элементу (flex grow factor — «коэффициент увеличения flex»).
+    </div>
+    <div class="demon">
+      <div class="element25">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+      </div>
+      <div class="element26">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+      </div>
+
+    </div>
+  </div>
+  <br>
+  <hr>
+  <br>
+  <div class="property container">
+    <div class="description">
+      <h1 class="title">3. flex-shrink: 1;</h1>
+      flex-shrink — свойство CSS, которое определяет фактор сжатия flex-элемента. Flex-элементы будут заполнять
+      контейнер в зависимости от значения flex-shrink, когда стандартная ширина flex-элементов шире, чем flex-контейнер.
+    </div>
+    <div class="demon">
+      <div class="element27">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+      </div>
+      <div class="element28">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+      </div>
+
+    </div>
+  </div>
+  <br>
+  <hr>
+  <br>
+  <div class="property container">
+    <div class="description">
+      <h1 class="title">4. flex-basis: auto;</h1>
+      CSS свойство flex-basis задаёт базовый размер флекс элемента по основной оси. Это свойство определяет размер
+      контент-бокса, если не задано иначе через box-sizing.
+
+    </div>
+    <div class="demon">
+      <div class="element29">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+      </div>
+      <div class="element30">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+      </div>
+
+    </div>
+
+  </div>
+  <br>
+  <hr>
+  <br>
+  <div class="property container">
+    <div class="description1">
+      <h1 class="title">5. flex: 0 1 auto;</h1>
+      Свойство CSS flex - это сокращённое свойство, определяющее способность гибкого элемента растягиваться или
+      сжиматься для заполнения собой доступного свободного пространства. Это свойство устанавливает flex-grow,
+      flex-shrink и flex-basis.
+    </div>
+
+  </div>
+  <hr>
+  <br>
+  <div class="property container">
+    <div class="description">
+      <h1 class="title">6. align-self: auto;</h1>
+      Свойство CSS align-self выравнивает flex-элементы по текущей flex-линии, переопределяя значение свойства
+      align-items. Если у какого-либо flex-элемента margin в поперечной оси выставлен в auto, то align-self
+      игнорируется.
+    </div>
+    <div class="demon">
+      <div class="element31">
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+        <div class="block1"></div>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <br><br><br><br>
+</body>
+
+</html>
